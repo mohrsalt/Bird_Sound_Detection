@@ -32,7 +32,7 @@ The dataset is built from the [BirdSet](https://huggingface.co/datasets/DBD-rese
 
 Before running, open each script under `data/` and update the hardcoded paths (`CACHE_DIR`, `INPUT_JSON`, `OUTPUT_ROOT`, etc.) to point to your own storage locations.
 
-Step 1 — Download BirdSet and build the pure-sample manifests (quality A/B/C):
+Step 1 — Download BirdSet and build the pure-sample manifests (quality A/B/C) (A/B/C denote BirdSet recording quality levels (A: high, B: medium, C: low):
 
 ```bash
 python data/download.py
@@ -121,7 +121,7 @@ python evaluation/metrics.py
 
 ### Detection performance comparison
 
-Detection performance of the three model families on the 10-hour held-out test set, reported using time-based precision, recall, and F1-score. Best results per column are in **bold**, second-best are _underlined_.
+Detection performance of the three model families on the 10-hour held-out test set, reported using time-based precision, recall, and F1-score. Best results per column are in **bold**, second-best are _underlined_. Quality levels A, B, and C correspond to the recording quality labels provided by BirdSet (A = highest quality, B = medium quality, C = lower quality recordings).
 
 | Model / Setting | # Parameters | Precision ↑ | Recall ↑ | F1-score ↑ |
 |---|---|---|---|---|
