@@ -9,3 +9,4 @@ javad.egg-info
 /utils
 *_raw.pt
 /docs/build
+whisper_based_detector.pt
