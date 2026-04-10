@@ -1,4 +1,4 @@
-name: bird_detection
+name: bird_sound_detection
 channels:
   - conda-forge
 dependencies:
@@ -226,4 +226,4 @@ dependencies:
       - xxhash==3.5.0
       - yarl==1.20.1
       - zipp==3.23.0
-prefix: /home/users/ntu/bhargavi/.conda/envs/bird_detection
+prefix: /home/users/ntu/bhargavi/.conda/envs/bird_sound_detection
