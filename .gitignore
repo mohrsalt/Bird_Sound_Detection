@@ -9,3 +9,14 @@ javad.egg-info
 /utils
 *_raw.pt
 /docs/build
+
+/spgdataset/.pypirc
+/spgdataset/dist
+/spgdataset/__pycache__
+/spgdataset/*.egg-info
+/spgdataset/stuff/
+/spgdataset/.vscode/
+/spgdataset/.pytest_cache/
+/spgdataset/requirements.txt
+/spgdataset/build/
+/spgdataset/dist/
