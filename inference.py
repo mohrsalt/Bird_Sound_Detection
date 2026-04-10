@@ -14,7 +14,7 @@ with open("/home/users/ntu/bhargavi/scratch/test_dataset_top20/metadata_test_A.j
 columns=["AudioPath","Reference","Hypotheses","Logits","Length"]
 preds=pd.DataFrame(columns=columns)
 
-trained_model="/home/users/ntu/bhargavi/balanced_test.pt"
+trained_model=""
 
 total=0
 root="/home/users/ntu/bhargavi/scratch/test_dataset_top20/dev/"
